@@ -1,0 +1,4 @@
+__v,_id,class,createdAt,password,role,updatedAt,username
+0,63d4c88965678bdd83baea63,,2023-01-28T07:02:33.222Z,$2b$10$EN4Bpn.NY4JX/VfuSK6Sa.O8lbTwR99G8G5nD3AZuslZ/upo5t2bS,admin,2023-01-28T07:02:33.222Z,tejas@ust.com
+0,63da0d4ded4c426601533af7,,2023-02-01T06:57:17.067Z,$2b$10$/m9Kvntch7GubLiyiQh5/u8IildWr8LeKjilCViW2sxJWWzFADi.q,user,2023-02-01T06:57:17.067Z,user1@ust.com
+0,63f857c81f5df52ddb58a542,63e71d2c2a9277678ec2f7fc,2023-02-24T06:23:04.765Z,$2b$10$aMxbumwG4j6lT8r2X2MG7uE0y9Pvju0tGwLv4HzuGg9E3fdX9iYH6,super-admin,2023-02-24T06:23:04.765Z,be-a@comp.com
