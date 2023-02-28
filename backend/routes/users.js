@@ -4,11 +4,6 @@ const { userRegister, userLogin, userAuth, checkRole } = require("../utils/Auth"
 // User registration Router
 // checkRole(["admin"])
 // userAuth
-// {
-//   "username":"BE-A@comp.com",
-//   "password":"BECOMPA@123",
-//   "class": "63e71d2c2a9277678ec2f7fc"
-// }
 
 router.post("/register", async (req, res) => {
   await userRegister(req.body, "user", res);
