@@ -1,0 +1,236 @@
+[{
+  "_id": {
+    "$oid": "63e1fc62448c1c8c21994226"
+  },
+  "title": "Data Structures and Algorithms",
+  "faculty": {
+    "$oid": "63f445b52c998da83810483a"
+  },
+  "abbreviation": "DSA",
+  "type": "Theory",
+  "branch": {
+    "$oid": "63e0a3aee4583cad8f40a333"
+  },
+  "year": "SE",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1675754594937"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1675754594937"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e64f404bfd0ac92331099f"
+  },
+  "title": "Computer Graphics Lab",
+  "abbreviation": "CGL",
+  "type": "Practical",
+  "branch": {
+    "$oid": "63e0a3aee4583cad8f40a333"
+  },
+  "year": "SE",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676037952632"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676037952632"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e9e303d7eaee096fed4ff5"
+  },
+  "title": "High Performance Computing",
+  "faculty": {
+    "$oid": "63f445a82c998da838104835"
+  },
+  "abbreviation": "HPC",
+  "type": "Theory",
+  "branch": {
+    "$oid": "63e0a3aee4583cad8f40a333"
+  },
+  "year": "BE",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676272387813"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676272387813"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e9e30fd7eaee096fed4ffa"
+  },
+  "title": "Deep Learning",
+  "faculty": {
+    "$oid": "63f445302c998da838104830"
+  },
+  "abbreviation": "DL",
+  "type": "Theory",
+  "branch": {
+    "$oid": "63e0a3aee4583cad8f40a333"
+  },
+  "year": "BE",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676272399844"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676272399844"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e9e347d7eaee096fed4fff"
+  },
+  "title": "Software Defined Networks",
+  "faculty": {
+    "$oid": "63f445e62c998da83810483f"
+  },
+  "abbreviation": "SDN",
+  "type": "Theory",
+  "branch": {
+    "$oid": "63e0a3aee4583cad8f40a333"
+  },
+  "year": "BE",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676272455839"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676272455839"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e9e367d7eaee096fed5004"
+  },
+  "title": "Business Intelligence",
+  "faculty": {
+    "$oid": "63f445b52c998da83810483a"
+  },
+  "abbreviation": "BI",
+  "type": "Theory",
+  "branch": {
+    "$oid": "63e0a3aee4583cad8f40a333"
+  },
+  "year": "BE",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676272487940"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676272487940"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e9e37cd7eaee096fed5009"
+  },
+  "title": "Laboratory Practice - V",
+  "abbreviation": "LP-V",
+  "type": "Practical",
+  "branch": {
+    "$oid": "63e0a3aee4583cad8f40a333"
+  },
+  "year": "BE",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676272508775"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676272508775"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e9e383d7eaee096fed500e"
+  },
+  "title": "Laboratory Practice - VI",
+  "abbreviation": "LP-VI",
+  "type": "Practical",
+  "branch": {
+    "$oid": "63e0a3aee4583cad8f40a333"
+  },
+  "year": "BE",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676272515199"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676272515199"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e9e39ad7eaee096fed5013"
+  },
+  "title": "Project Work Stage - II",
+  "abbreviation": "PRJ-II",
+  "type": "Practical",
+  "branch": {
+    "$oid": "63e0a3aee4583cad8f40a333"
+  },
+  "year": "BE",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676272538019"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676272538019"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e9e3a7d7eaee096fed5018"
+  },
+  "title": "Project Work Stage - I",
+  "abbreviation": "PRJ-I",
+  "type": "Practical",
+  "branch": {
+    "$oid": "63e0a3aee4583cad8f40a333"
+  },
+  "year": "BE",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676272551164"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676272551164"
+    }
+  },
+  "__v": 0
+}]

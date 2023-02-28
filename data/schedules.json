@@ -1,0 +1,721 @@
+[{
+  "_id": {
+    "$oid": "63f8398bea6cbf222397ba15"
+  },
+  "title": "COMP-BE-A",
+  "class": {
+    "$oid": "63e71d2c2a9277678ec2f7fc"
+  },
+  "monday": {
+    "lectures": [
+      {
+        "subject": {
+          "$oid": "63e9e367d7eaee096fed5004"
+        },
+        "startTime": {
+          "$date": {
+            "$numberLong": "1677211834771"
+          }
+        },
+        "endTime": {
+          "$date": {
+            "$numberLong": "1677214834771"
+          }
+        }
+      },
+      {
+        "subject": {
+          "$oid": "63e9e30fd7eaee096fed4ffa"
+        },
+        "startTime": {
+          "$date": {
+            "$numberLong": "1677214839474"
+          }
+        },
+        "endTime": {
+          "$date": {
+            "$numberLong": "1677217839474"
+          }
+        }
+      },
+      {
+        "subject": {
+          "$oid": "63e9e347d7eaee096fed4fff"
+        },
+        "startTime": {
+          "$date": {
+            "$numberLong": "1677217838214"
+          }
+        },
+        "endTime": {
+          "$date": {
+            "$numberLong": "1677220838214"
+          }
+        }
+      }
+    ],
+    "practicals": [
+      {
+        "subject": {
+          "$oid": "63e9e37cd7eaee096fed5009"
+        },
+        "batch": {
+          "$oid": "63e9e295d7eaee096fed4fdf"
+        },
+        "startTime": {
+          "$date": {
+            "$numberLong": "1677223214057"
+          }
+        },
+        "endTime": {
+          "$date": {
+            "$numberLong": "1677229214057"
+          }
+        }
+      },
+      {
+        "subject": {
+          "$oid": "63e9e383d7eaee096fed500e"
+        },
+        "batch": {
+          "$oid": "63e9e298d7eaee096fed4fe2"
+        },
+        "startTime": {
+          "$date": {
+            "$numberLong": "1677223220773"
+          }
+        },
+        "endTime": {
+          "$date": {
+            "$numberLong": "1677229220773"
+          }
+        }
+      },
+      {
+        "subject": {
+          "$oid": "63e9e383d7eaee096fed500e"
+        },
+        "batch": {
+          "$oid": "63e9e29fd7eaee096fed4fe8"
+        },
+        "startTime": {
+          "$date": {
+            "$numberLong": "1677223232049"
+          }
+        },
+        "endTime": {
+          "$date": {
+            "$numberLong": "1677229232049"
+          }
+        }
+      },
+      {
+        "subject": {
+          "$oid": "63e9e39ad7eaee096fed5013"
+        },
+        "batch": {
+          "$oid": "63e9e295d7eaee096fed4fdf"
+        },
+        "startTime": {
+          "$date": {
+            "$numberLong": "1677229249921"
+          }
+        },
+        "endTime": {
+          "$date": {
+            "$numberLong": "1677235249921"
+          }
+        }
+      }
+    ],
+    "lunchBreak": {
+      "startTime": {
+        "$date": {
+          "$numberLong": "1677220854174"
+        }
+      },
+      "endTime": {
+        "$date": {
+          "$numberLong": "1677223254174"
+        }
+      }
+    },
+    "shortBreak": null
+  },
+  "tuesday": {
+    "lectures": [
+      {
+        "subject": {
+          "$oid": "63e9e347d7eaee096fed4fff"
+        },
+        "startTime": {
+          "$date": {
+            "$numberLong": "1677211859878"
+          }
+        },
+        "endTime": {
+          "$date": {
+            "$numberLong": "1677214859878"
+          }
+        }
+      },
+      {
+        "subject": {
+          "$oid": "63e9e367d7eaee096fed5004"
+        },
+        "startTime": {
+          "$date": {
+            "$numberLong": "1677214849038"
+          }
+        },
+        "endTime": {
+          "$date": {
+            "$numberLong": "1677217849038"
+          }
+        }
+      },
+      {
+        "subject": {
+          "$oid": "63e9e303d7eaee096fed4ff5"
+        },
+        "startTime": {
+          "$date": {
+            "$numberLong": "1677217848654"
+          }
+        },
+        "endTime": {
+          "$date": {
+            "$numberLong": "1677220848654"
+          }
+        }
+      }
+    ],
+    "practicals": [
+      {
+        "subject": {
+          "$oid": "63e9e383d7eaee096fed500e"
+        },
+        "batch": {
+          "$oid": "63e9e295d7eaee096fed4fdf"
+        },
+        "startTime": {
+          "$date": {
+            "$numberLong": "1677223241209"
+          }
+        },
+        "endTime": {
+          "$date": {
+            "$numberLong": "1677229241209"
+          }
+        }
+      },
+      {
+        "subject": {
+          "$oid": "63e9e37cd7eaee096fed5009"
+        },
+        "batch": {
+          "$oid": "63e9e298d7eaee096fed4fe2"
+        },
+        "startTime": {
+          "$date": {
+            "$numberLong": "1677223247273"
+          }
+        },
+        "endTime": {
+          "$date": {
+            "$numberLong": "1677229247273"
+          }
+        }
+      },
+      {
+        "subject": {
+          "$oid": "63e9e383d7eaee096fed500e"
+        },
+        "batch": {
+          "$oid": "63e9e29bd7eaee096fed4fe5"
+        },
+        "startTime": {
+          "$date": {
+            "$numberLong": "1677223258237"
+          }
+        },
+        "endTime": {
+          "$date": {
+            "$numberLong": "1677229258237"
+          }
+        }
+      },
+      {
+        "subject": {
+          "$oid": "63e9e39ad7eaee096fed5013"
+        },
+        "batch": {
+          "$oid": "63e9e298d7eaee096fed4fe2"
+        },
+        "startTime": {
+          "$date": {
+            "$numberLong": "1677229255865"
+          }
+        },
+        "endTime": {
+          "$date": {
+            "$numberLong": "1677235255865"
+          }
+        }
+      }
+    ],
+    "lunchBreak": {
+      "startTime": {
+        "$date": {
+          "$numberLong": "1677220856566"
+        }
+      },
+      "endTime": {
+        "$date": {
+          "$numberLong": "1677223256566"
+        }
+      }
+    },
+    "shortBreak": null
+  },
+  "wednesday": {
+    "lectures": [
+      {
+        "subject": {
+          "$oid": "63e9e303d7eaee096fed4ff5"
+        },
+        "startTime": {
+          "$date": {
+            "$numberLong": "1677211805934"
+          }
+        },
+        "endTime": {
+          "$date": {
+            "$numberLong": "1677214805934"
+          }
+        }
+      },
+      {
+        "subject": {
+          "$oid": "63e9e367d7eaee096fed5004"
+        },
+        "startTime": {
+          "$date": {
+            "$numberLong": "1677214855182"
+          }
+        },
+        "endTime": {
+          "$date": {
+            "$numberLong": "1677217855182"
+          }
+        }
+      },
+      {
+        "subject": {
+          "$oid": "63e9e30fd7eaee096fed4ffa"
+        },
+        "startTime": {
+          "$date": {
+            "$numberLong": "1677217802846"
+          }
+        },
+        "endTime": {
+          "$date": {
+            "$numberLong": "1677220802846"
+          }
+        }
+      }
+    ],
+    "practicals": [
+      {
+        "subject": {
+          "$oid": "63e9e383d7eaee096fed500e"
+        },
+        "batch": {
+          "$oid": "63e9e298d7eaee096fed4fe2"
+        },
+        "startTime": {
+          "$date": {
+            "$numberLong": "1677223223434"
+          }
+        },
+        "endTime": {
+          "$date": {
+            "$numberLong": "1677229223434"
+          }
+        }
+      },
+      {
+        "subject": {
+          "$oid": "63e9e37cd7eaee096fed5009"
+        },
+        "batch": {
+          "$oid": "63e9e29bd7eaee096fed4fe5"
+        },
+        "startTime": {
+          "$date": {
+            "$numberLong": "1677223244670"
+          }
+        },
+        "endTime": {
+          "$date": {
+            "$numberLong": "1677229244670"
+          }
+        }
+      },
+      {
+        "subject": {
+          "$oid": "63e9e383d7eaee096fed500e"
+        },
+        "batch": {
+          "$oid": "63e9e29fd7eaee096fed4fe8"
+        },
+        "startTime": {
+          "$date": {
+            "$numberLong": "1677223251234"
+          }
+        },
+        "endTime": {
+          "$date": {
+            "$numberLong": "1677229251234"
+          }
+        }
+      },
+      {
+        "subject": {
+          "$oid": "63e9e39ad7eaee096fed5013"
+        },
+        "batch": {
+          "$oid": "63e9e29bd7eaee096fed4fe5"
+        },
+        "startTime": {
+          "$date": {
+            "$numberLong": "1677229208361"
+          }
+        },
+        "endTime": {
+          "$date": {
+            "$numberLong": "1677235208361"
+          }
+        }
+      }
+    ],
+    "lunchBreak": {
+      "startTime": {
+        "$date": {
+          "$numberLong": "1677220802846"
+        }
+      },
+      "endTime": {
+        "$date": {
+          "$numberLong": "1677223202846"
+        }
+      }
+    },
+    "shortBreak": null
+  },
+  "thursday": {
+    "lectures": [
+      {
+        "subject": {
+          "$oid": "63e9e30fd7eaee096fed4ffa"
+        },
+        "startTime": {
+          "$date": {
+            "$numberLong": "1677211811334"
+          }
+        },
+        "endTime": {
+          "$date": {
+            "$numberLong": "1677214811334"
+          }
+        }
+      },
+      {
+        "subject": {
+          "$oid": "63e9e303d7eaee096fed4ff5"
+        },
+        "startTime": {
+          "$date": {
+            "$numberLong": "1677214801462"
+          }
+        },
+        "endTime": {
+          "$date": {
+            "$numberLong": "1677217801462"
+          }
+        }
+      },
+      {
+        "subject": {
+          "$oid": "63e9e347d7eaee096fed4fff"
+        },
+        "startTime": {
+          "$date": {
+            "$numberLong": "1677217810438"
+          }
+        },
+        "endTime": {
+          "$date": {
+            "$numberLong": "1677220810438"
+          }
+        }
+      }
+    ],
+    "practicals": [
+      {
+        "subject": {
+          "$oid": "63e9e383d7eaee096fed500e"
+        },
+        "batch": {
+          "$oid": "63e9e295d7eaee096fed4fdf"
+        },
+        "startTime": {
+          "$date": {
+            "$numberLong": "1677223200490"
+          }
+        },
+        "endTime": {
+          "$date": {
+            "$numberLong": "1677229257490"
+          }
+        }
+      },
+      {
+        "subject": {
+          "$oid": "63e9e383d7eaee096fed500e"
+        },
+        "batch": {
+          "$oid": "63e9e29bd7eaee096fed4fe5"
+        },
+        "startTime": {
+          "$date": {
+            "$numberLong": "1677223200793"
+          }
+        },
+        "endTime": {
+          "$date": {
+            "$numberLong": "1677229241793"
+          }
+        }
+      },
+      {
+        "subject": {
+          "$oid": "63e9e37cd7eaee096fed5009"
+        },
+        "batch": {
+          "$oid": "63e9e29fd7eaee096fed4fe8"
+        },
+        "startTime": {
+          "$date": {
+            "$numberLong": "1677223200737"
+          }
+        },
+        "endTime": {
+          "$date": {
+            "$numberLong": "1677229251737"
+          }
+        }
+      },
+      {
+        "subject": {
+          "$oid": "63e9e39ad7eaee096fed5013"
+        },
+        "batch": {
+          "$oid": "63e9e29fd7eaee096fed4fe8"
+        },
+        "startTime": {
+          "$date": {
+            "$numberLong": "1677229200553"
+          }
+        },
+        "endTime": {
+          "$date": {
+            "$numberLong": "1677235221553"
+          }
+        }
+      }
+    ],
+    "lunchBreak": {
+      "startTime": {
+        "$date": {
+          "$numberLong": "1677220800449"
+        }
+      },
+      "endTime": {
+        "$date": {
+          "$numberLong": "1677223200449"
+        }
+      }
+    },
+    "shortBreak": null
+  },
+  "friday": {
+    "lectures": [
+      {
+        "subject": {
+          "$oid": "63e9e303d7eaee096fed4ff5"
+        },
+        "startTime": {
+          "$date": {
+            "$numberLong": "1677211818222"
+          }
+        },
+        "endTime": {
+          "$date": {
+            "$numberLong": "1677214818222"
+          }
+        }
+      },
+      {
+        "subject": {
+          "$oid": "63e9e347d7eaee096fed4fff"
+        },
+        "startTime": {
+          "$date": {
+            "$numberLong": "1677214808461"
+          }
+        },
+        "endTime": {
+          "$date": {
+            "$numberLong": "1677217808461"
+          }
+        }
+      },
+      {
+        "subject": {
+          "$oid": "63e9e367d7eaee096fed5004"
+        },
+        "startTime": {
+          "$date": {
+            "$numberLong": "1677217819014"
+          }
+        },
+        "endTime": {
+          "$date": {
+            "$numberLong": "1677220819014"
+          }
+        }
+      },
+      {
+        "subject": {
+          "$oid": "63e9e30fd7eaee096fed4ffa"
+        },
+        "startTime": {
+          "$date": {
+            "$numberLong": "1677223211057"
+          }
+        },
+        "endTime": {
+          "$date": {
+            "$numberLong": "1677226211057"
+          }
+        }
+      }
+    ],
+    "practicals": [
+      {
+        "subject": {
+          "$oid": "63e9e39ad7eaee096fed5013"
+        },
+        "batch": {
+          "$oid": "63e9e295d7eaee096fed4fdf"
+        },
+        "startTime": {
+          "$date": {
+            "$numberLong": "1677226200437"
+          }
+        },
+        "endTime": {
+          "$date": {
+            "$numberLong": "1677235252437"
+          }
+        }
+      },
+      {
+        "subject": {
+          "$oid": "63e9e39ad7eaee096fed5013"
+        },
+        "batch": {
+          "$oid": "63e9e298d7eaee096fed4fe2"
+        },
+        "startTime": {
+          "$date": {
+            "$numberLong": "1677226200745"
+          }
+        },
+        "endTime": {
+          "$date": {
+            "$numberLong": "1677235254745"
+          }
+        }
+      },
+      {
+        "subject": {
+          "$oid": "63e9e39ad7eaee096fed5013"
+        },
+        "batch": {
+          "$oid": "63e9e29bd7eaee096fed4fe5"
+        },
+        "startTime": {
+          "$date": {
+            "$numberLong": "1677226200985"
+          }
+        },
+        "endTime": {
+          "$date": {
+            "$numberLong": "1677235256985"
+          }
+        }
+      },
+      {
+        "subject": {
+          "$oid": "63e9e39ad7eaee096fed5013"
+        },
+        "batch": {
+          "$oid": "63e9e29fd7eaee096fed4fe8"
+        },
+        "startTime": {
+          "$date": {
+            "$numberLong": "1677226200553"
+          }
+        },
+        "endTime": {
+          "$date": {
+            "$numberLong": "1677235201553"
+          }
+        }
+      }
+    ],
+    "lunchBreak": {
+      "startTime": {
+        "$date": {
+          "$numberLong": "1677220805897"
+        }
+      },
+      "endTime": {
+        "$date": {
+          "$numberLong": "1677223205897"
+        }
+      }
+    },
+    "shortBreak": null
+  },
+  "saturday": {
+    "lectures": [],
+    "practicals": [],
+    "lunchBreak": null,
+    "shortBreak": null
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1677212043676"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1677212043676"
+    }
+  },
+  "__v": 0
+}]

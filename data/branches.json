@@ -1,0 +1,81 @@
+[{
+  "_id": {
+    "$oid": "63e0a3aee4583cad8f40a333"
+  },
+  "title": "Computer Engineering",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1675666350770"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1675666350770"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e0a729dc02513190e65391"
+  },
+  "title": "Mechanical Engineering",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1675667241343"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1675667241343"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e0a73ddc02513190e65393"
+  },
+  "title": "Electronics and Telecommunication Engineering",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1675667261018"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1675667261018"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e0a746dc02513190e65395"
+  },
+  "title": "IT Engineering",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1675667270260"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1675667270260"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e0a74adc02513190e65397"
+  },
+  "title": "Civil Engineering",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1675667274499"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1675667274499"
+    }
+  },
+  "__v": 0
+}]

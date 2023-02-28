@@ -1,0 +1,85 @@
+[{
+  "_id": {
+    "$oid": "63f445302c998da838104830"
+  },
+  "firstName": "Jameer",
+  "lastName": "Kotwal",
+  "abbreviation": "JGK",
+  "branch": {
+    "$oid": "63e0a3aee4583cad8f40a333"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676952881003"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676952881003"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f445a82c998da838104835"
+  },
+  "firstName": "Deepa",
+  "lastName": "Mahajan",
+  "abbreviation": "DPM",
+  "branch": {
+    "$oid": "63e0a3aee4583cad8f40a333"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676953000806"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676953000806"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f445b52c998da83810483a"
+  },
+  "firstName": "Archana",
+  "lastName": "Chaugule",
+  "abbreviation": "AAC",
+  "branch": {
+    "$oid": "63e0a3aee4583cad8f40a333"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676953013969"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676953013969"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f445e62c998da83810483f"
+  },
+  "firstName": "v",
+  "lastName": "v",
+  "abbreviation": "V2",
+  "branch": {
+    "$oid": "63e0a3aee4583cad8f40a333"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676953062088"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676953062088"
+    }
+  },
+  "__v": 0
+}]

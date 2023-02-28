@@ -1,0 +1,96 @@
+[{
+  "_id": {
+    "$oid": "63e9da938ab4bb5391e2dbda"
+  },
+  "title": "1",
+  "class": {
+    "$oid": "63e71cadf14b8d82a669e543"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676270227779"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676270227779"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e9e295d7eaee096fed4fdf"
+  },
+  "title": "B1",
+  "class": {
+    "$oid": "63e71d2c2a9277678ec2f7fc"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676272277020"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676272277020"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e9e298d7eaee096fed4fe2"
+  },
+  "title": "B2",
+  "class": {
+    "$oid": "63e71d2c2a9277678ec2f7fc"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676272280889"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676272280889"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e9e29bd7eaee096fed4fe5"
+  },
+  "title": "B3",
+  "class": {
+    "$oid": "63e71d2c2a9277678ec2f7fc"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676272283685"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676272283685"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e9e29fd7eaee096fed4fe8"
+  },
+  "title": "B4",
+  "class": {
+    "$oid": "63e71d2c2a9277678ec2f7fc"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676272287922"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676272287922"
+    }
+  },
+  "__v": 0
+}]

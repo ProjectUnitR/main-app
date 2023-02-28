@@ -1,0 +1,442 @@
+[{
+  "_id": {
+    "$oid": "63e71cadf14b8d82a669e543"
+  },
+  "branch": {
+    "$oid": "63e0a3aee4583cad8f40a333"
+  },
+  "title": "FE-A",
+  "year": "FE",
+  "division": "A",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676090541352"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676090541352"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e71d1a2a9277678ec2f7ea"
+  },
+  "branch": {
+    "$oid": "63e0a3aee4583cad8f40a333"
+  },
+  "title": "FE-B",
+  "year": "FE",
+  "division": "B",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676090650869"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676090650869"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e71d272a9277678ec2f7f0"
+  },
+  "branch": {
+    "$oid": "63e0a3aee4583cad8f40a333"
+  },
+  "title": "SE-A",
+  "year": "SE",
+  "division": "A",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676090663858"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676090663858"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e71d2a2a9277678ec2f7f6"
+  },
+  "branch": {
+    "$oid": "63e0a3aee4583cad8f40a333"
+  },
+  "title": "TE-A",
+  "year": "TE",
+  "division": "A",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676090666694"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676090666694"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e71d2c2a9277678ec2f7fc"
+  },
+  "branch": {
+    "$oid": "63e0a3aee4583cad8f40a333"
+  },
+  "title": "BE-A",
+  "year": "BE",
+  "division": "A",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676090668914"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676090668914"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e71d322a9277678ec2f802"
+  },
+  "branch": {
+    "$oid": "63e0a729dc02513190e65391"
+  },
+  "title": "FE-A",
+  "year": "FE",
+  "division": "A",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676090674830"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676090674830"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e71d352a9277678ec2f808"
+  },
+  "branch": {
+    "$oid": "63e0a729dc02513190e65391"
+  },
+  "title": "SE-A",
+  "year": "SE",
+  "division": "A",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676090677174"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676090677174"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e71d372a9277678ec2f80e"
+  },
+  "branch": {
+    "$oid": "63e0a729dc02513190e65391"
+  },
+  "title": "TE-A",
+  "year": "TE",
+  "division": "A",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676090679060"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676090679060"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e71d382a9277678ec2f814"
+  },
+  "branch": {
+    "$oid": "63e0a729dc02513190e65391"
+  },
+  "title": "BE-A",
+  "year": "BE",
+  "division": "A",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676090680969"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676090680969"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e71d422a9277678ec2f81a"
+  },
+  "branch": {
+    "$oid": "63e0a73ddc02513190e65393"
+  },
+  "title": "FE-A",
+  "year": "FE",
+  "division": "A",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676090690414"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676090690414"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e71d452a9277678ec2f820"
+  },
+  "branch": {
+    "$oid": "63e0a73ddc02513190e65393"
+  },
+  "title": "SE-A",
+  "year": "SE",
+  "division": "A",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676090693006"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676090693006"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e71d462a9277678ec2f826"
+  },
+  "branch": {
+    "$oid": "63e0a73ddc02513190e65393"
+  },
+  "title": "TE-A",
+  "year": "TE",
+  "division": "A",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676090694788"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676090694788"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e71d482a9277678ec2f82c"
+  },
+  "branch": {
+    "$oid": "63e0a73ddc02513190e65393"
+  },
+  "title": "BE-A",
+  "year": "BE",
+  "division": "A",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676090696600"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676090696600"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e71d672a9277678ec2f832"
+  },
+  "branch": {
+    "$oid": "63e0a746dc02513190e65395"
+  },
+  "title": "FE-A",
+  "year": "FE",
+  "division": "A",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676090727562"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676090727562"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e71d692a9277678ec2f838"
+  },
+  "branch": {
+    "$oid": "63e0a746dc02513190e65395"
+  },
+  "title": "SE-A",
+  "year": "SE",
+  "division": "A",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676090729425"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676090729425"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e71d6b2a9277678ec2f83e"
+  },
+  "branch": {
+    "$oid": "63e0a746dc02513190e65395"
+  },
+  "title": "TE-A",
+  "year": "TE",
+  "division": "A",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676090731469"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676090731469"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e71d6d2a9277678ec2f844"
+  },
+  "branch": {
+    "$oid": "63e0a746dc02513190e65395"
+  },
+  "title": "BE-A",
+  "year": "BE",
+  "division": "A",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676090733504"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676090733504"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e71d702a9277678ec2f84a"
+  },
+  "branch": {
+    "$oid": "63e0a74adc02513190e65397"
+  },
+  "title": "FE-A",
+  "year": "FE",
+  "division": "A",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676090736395"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676090736395"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e71d722a9277678ec2f850"
+  },
+  "branch": {
+    "$oid": "63e0a74adc02513190e65397"
+  },
+  "title": "SE-A",
+  "year": "SE",
+  "division": "A",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676090738433"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676090738433"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e71d742a9277678ec2f856"
+  },
+  "branch": {
+    "$oid": "63e0a74adc02513190e65397"
+  },
+  "title": "TE-A",
+  "year": "TE",
+  "division": "A",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676090740334"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676090740334"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e71d762a9277678ec2f85c"
+  },
+  "branch": {
+    "$oid": "63e0a74adc02513190e65397"
+  },
+  "title": "BE-A",
+  "year": "BE",
+  "division": "A",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676090742220"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676090742220"
+    }
+  },
+  "__v": 0
+}]
