@@ -3,6 +3,8 @@ import "./login.css";
 import { UserLogin } from "../../services/AuthService";
 import { useLocation, useNavigate } from "react-router-dom";
 import AuthContext from "../../context/AuthContext";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Login = () => {
   const authCtx = useContext(AuthContext);
@@ -18,7 +20,15 @@ const Login = () => {
       authCtx.login(loginResponse.role, loginResponse.token, loginResponse.class);
       navigate(from, { replace: true });
     } else {
-      alert("Failed");
+      toast.error("Incorrent Username or Password", {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined
+      });
     }
   };
 
@@ -48,6 +58,7 @@ const Login = () => {
           </div>
         </form>
       </div>
+      <ToastContainer theme="colored" position="top-left" autoClose={5000} hideProgressBar={false} newestOnTop={false} closeOnClick rtl={false} pauseOnFocusLoss draggable pauseOnHover />
     </div>
   );
 };

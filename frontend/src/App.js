@@ -10,6 +10,7 @@ import Timetable from "./components/timetable/Timetable";
 import CreateSchedule from "./components/create-schedule/CreateSchedule";
 import Class from "./components/class/Class";
 import Faculty from "./components/faculty/Faculty";
+import { ScheduleContextProvider } from "./context/ScheduleContext";
 
 function App() {
   const authCtx = useContext(AuthContext);
@@ -59,7 +60,14 @@ function App() {
             </Main>
           }
         />
-        <Route path="timetable" element={<Timetable />} />
+        <Route
+          path="timetable"
+          element={
+            <ScheduleContextProvider>
+              <Timetable />
+            </ScheduleContextProvider>
+          }
+        />
       </Routes>
     </div>
   );

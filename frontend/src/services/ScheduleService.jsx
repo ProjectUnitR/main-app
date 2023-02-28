@@ -82,7 +82,7 @@ export const getSchedule = async (classId) => {
     }
   } catch (err) {
     console.log(err);
-    return [];
+    return null;
   }
 };
 

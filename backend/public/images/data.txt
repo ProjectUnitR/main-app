@@ -1,0 +1,753 @@
+{
+    "title": "COMP-BE-A",
+    "class": "63e71d2c2a9277678ec2f7fc",
+    "monday": {
+        "lectures": [
+            {
+                "id": "BI73874",
+                "subjectId": "63e9e367d7eaee096fed5004",
+                "subjectName": "Business Intelligence",
+                "subjectAbbreviation": "BI",
+                "startTime": "2023-02-24T04:10:34.771Z",
+                "endTime": "2023-02-24T05:00:34.771Z",
+                "day": "Monday"
+            },
+            {
+                "id": "DL73906",
+                "subjectId": "63e9e30fd7eaee096fed4ffa",
+                "subjectName": "Deep Learning",
+                "subjectAbbreviation": "DL",
+                "startTime": "2023-02-24T05:00:39.474Z",
+                "endTime": "2023-02-24T05:50:39.474Z",
+                "day": "Monday"
+            },
+            {
+                "id": "SDN37362",
+                "subjectId": "63e9e347d7eaee096fed4fff",
+                "subjectName": "Software Defined Networks",
+                "subjectAbbreviation": "SDN",
+                "startTime": "2023-02-24T05:50:38.214Z",
+                "endTime": "2023-02-24T06:40:38.214Z",
+                "day": "Monday"
+            }
+        ],
+        "practicals": [
+            {
+                "id": "LP-V73672",
+                "subjectId": "63e9e37cd7eaee096fed5009",
+                "subjectName": "Laboratory Practice - V",
+                "subjectAbbreviation": "LP-V",
+                "startTime": "2023-02-24T07:20:14.057Z",
+                "endTime": "2023-02-24T09:00:14.057Z",
+                "day": "Monday",
+                "batch": {
+                    "id": "63e9e295d7eaee096fed4fdf",
+                    "title": "B1"
+                }
+            },
+            {
+                "id": "LP-VI39701",
+                "subjectId": "63e9e383d7eaee096fed500e",
+                "subjectName": "Laboratory Practice - VI",
+                "subjectAbbreviation": "LP-VI",
+                "startTime": "2023-02-24T07:20:20.773Z",
+                "endTime": "2023-02-24T09:00:20.773Z",
+                "day": "Monday",
+                "batch": {
+                    "id": "63e9e298d7eaee096fed4fe2",
+                    "title": "B2"
+                }
+            },
+            {
+                "id": "LP-VI29005",
+                "subjectId": "63e9e383d7eaee096fed500e",
+                "subjectName": "Laboratory Practice - VI",
+                "subjectAbbreviation": "LP-VI",
+                "startTime": "2023-02-24T07:20:32.049Z",
+                "endTime": "2023-02-24T09:00:32.049Z",
+                "day": "Monday",
+                "batch": {
+                    "id": "63e9e29fd7eaee096fed4fe8",
+                    "title": "B4"
+                }
+            },
+            {
+                "id": "PRJ-II148",
+                "subjectId": "63e9e39ad7eaee096fed5013",
+                "subjectName": "Project Work Stage - II",
+                "subjectAbbreviation": "PRJ-II",
+                "startTime": "2023-02-24T09:00:49.921Z",
+                "endTime": "2023-02-24T10:40:49.921Z",
+                "day": "Monday",
+                "batch": {
+                    "id": "63e9e295d7eaee096fed4fdf",
+                    "title": "B1"
+                }
+            }
+        ],
+        "lunchBreak": {
+            "id": "lunchBreak",
+            "startTime": "2023-02-24T06:40:54.174Z",
+            "endTime": "2023-02-24T07:20:54.174Z",
+            "title": "Break"
+        },
+        "shortBreak": null
+    },
+    "tuesday": {
+        "lectures": [
+            {
+                "id": "SDN42658",
+                "subjectId": "63e9e347d7eaee096fed4fff",
+                "subjectName": "Software Defined Networks",
+                "subjectAbbreviation": "SDN",
+                "startTime": "2023-02-24T04:10:59.878Z",
+                "endTime": "2023-02-24T05:00:59.878Z",
+                "day": "Tuesday"
+            },
+            {
+                "id": "BI12722",
+                "subjectId": "63e9e367d7eaee096fed5004",
+                "subjectName": "Business Intelligence",
+                "subjectAbbreviation": "BI",
+                "startTime": "2023-02-24T05:00:49.038Z",
+                "endTime": "2023-02-24T05:50:49.038Z",
+                "day": "Tuesday"
+            },
+            {
+                "id": "HPC38976",
+                "subjectId": "63e9e303d7eaee096fed4ff5",
+                "subjectName": "High Performance Computing",
+                "subjectAbbreviation": "HPC",
+                "startTime": "2023-02-24T05:50:48.654Z",
+                "endTime": "2023-02-24T06:40:48.654Z",
+                "day": "Tuesday"
+            }
+        ],
+        "practicals": [
+            {
+                "id": "LP-VI26278",
+                "subjectId": "63e9e383d7eaee096fed500e",
+                "subjectName": "Laboratory Practice - VI",
+                "subjectAbbreviation": "LP-VI",
+                "startTime": "2023-02-24T07:20:41.209Z",
+                "endTime": "2023-02-24T09:00:41.209Z",
+                "day": "Tuesday",
+                "batch": {
+                    "id": "63e9e295d7eaee096fed4fdf",
+                    "title": "B1"
+                }
+            },
+            {
+                "id": "LP-V13599",
+                "subjectId": "63e9e37cd7eaee096fed5009",
+                "subjectName": "Laboratory Practice - V",
+                "subjectAbbreviation": "LP-V",
+                "startTime": "2023-02-24T07:20:47.273Z",
+                "endTime": "2023-02-24T09:00:47.273Z",
+                "day": "Tuesday",
+                "batch": {
+                    "id": "63e9e298d7eaee096fed4fe2",
+                    "title": "B2"
+                }
+            },
+            {
+                "id": "LP-VI71051",
+                "subjectId": "63e9e383d7eaee096fed500e",
+                "subjectName": "Laboratory Practice - VI",
+                "subjectAbbreviation": "LP-VI",
+                "startTime": "2023-02-24T07:20:58.237Z",
+                "endTime": "2023-02-24T09:00:58.237Z",
+                "day": "Tuesday",
+                "batch": {
+                    "id": "63e9e29bd7eaee096fed4fe5",
+                    "title": "B3"
+                }
+            },
+            {
+                "id": "PRJ-II28356",
+                "subjectId": "63e9e39ad7eaee096fed5013",
+                "subjectName": "Project Work Stage - II",
+                "subjectAbbreviation": "PRJ-II",
+                "startTime": "2023-02-24T09:00:55.865Z",
+                "endTime": "2023-02-24T10:40:55.865Z",
+                "day": "Tuesday",
+                "batch": {
+                    "id": "63e9e298d7eaee096fed4fe2",
+                    "title": "B2"
+                }
+            }
+        ],
+        "lunchBreak": {
+            "id": "lunchBreak",
+            "startTime": "2023-02-24T06:40:56.566Z",
+            "endTime": "2023-02-24T07:20:56.566Z",
+            "title": "Break"
+        },
+        "shortBreak": null
+    },
+    "wednesday": {
+        "lectures": [
+            {
+                "id": "HPC90013",
+                "subjectId": "63e9e303d7eaee096fed4ff5",
+                "subjectName": "High Performance Computing",
+                "subjectAbbreviation": "HPC",
+                "startTime": "2023-02-24T04:10:05.934Z",
+                "endTime": "2023-02-24T05:00:05.934Z",
+                "day": "Wednesday"
+            },
+            {
+                "id": "BI9016",
+                "subjectId": "63e9e367d7eaee096fed5004",
+                "subjectName": "Business Intelligence",
+                "subjectAbbreviation": "BI",
+                "startTime": "2023-02-24T05:00:55.182Z",
+                "endTime": "2023-02-24T05:50:55.182Z",
+                "day": "Wednesday"
+            },
+            {
+                "id": "DL41199",
+                "subjectId": "63e9e30fd7eaee096fed4ffa",
+                "subjectName": "Deep Learning",
+                "subjectAbbreviation": "DL",
+                "startTime": "2023-02-24T05:50:02.846Z",
+                "endTime": "2023-02-24T06:40:02.846Z",
+                "day": "Wednesday"
+            }
+        ],
+        "practicals": [
+            {
+                "id": "LP-VI52313",
+                "subjectId": "63e9e383d7eaee096fed500e",
+                "subjectName": "Laboratory Practice - VI",
+                "subjectAbbreviation": "LP-VI",
+                "startTime": "2023-02-24T07:20:23.434Z",
+                "endTime": "2023-02-24T09:00:23.434Z",
+                "day": "Wednesday",
+                "batch": {
+                    "id": "63e9e298d7eaee096fed4fe2",
+                    "title": "B2"
+                }
+            },
+            {
+                "id": "LP-V19231",
+                "subjectId": "63e9e37cd7eaee096fed5009",
+                "subjectName": "Laboratory Practice - V",
+                "subjectAbbreviation": "LP-V",
+                "startTime": "2023-02-24T07:20:44.670Z",
+                "endTime": "2023-02-24T09:00:44.670Z",
+                "day": "Wednesday",
+                "batch": {
+                    "id": "63e9e29bd7eaee096fed4fe5",
+                    "title": "B3"
+                }
+            },
+            {
+                "id": "LP-VI27962",
+                "subjectId": "63e9e383d7eaee096fed500e",
+                "subjectName": "Laboratory Practice - VI",
+                "subjectAbbreviation": "LP-VI",
+                "startTime": "2023-02-24T07:20:51.234Z",
+                "endTime": "2023-02-24T09:00:51.234Z",
+                "day": "Wednesday",
+                "batch": {
+                    "id": "63e9e29fd7eaee096fed4fe8",
+                    "title": "B4"
+                }
+            },
+            {
+                "id": "PRJ-II23082",
+                "subjectId": "63e9e39ad7eaee096fed5013",
+                "subjectName": "Project Work Stage - II",
+                "subjectAbbreviation": "PRJ-II",
+                "startTime": "2023-02-24T09:00:08.361Z",
+                "endTime": "2023-02-24T10:40:08.361Z",
+                "day": "Wednesday",
+                "batch": {
+                    "id": "63e9e29bd7eaee096fed4fe5",
+                    "title": "B3"
+                }
+            }
+        ],
+        "lunchBreak": {
+            "id": "lunchBreak",
+            "startTime": "2023-02-24T06:40:02.846Z",
+            "endTime": "2023-02-24T07:20:02.846Z",
+            "title": "Break"
+        },
+        "shortBreak": null
+    },
+    "thursday": {
+        "lectures": [
+            {
+                "id": "DL56974",
+                "subjectId": "63e9e30fd7eaee096fed4ffa",
+                "subjectName": "Deep Learning",
+                "subjectAbbreviation": "DL",
+                "startTime": "2023-02-24T04:10:11.334Z",
+                "endTime": "2023-02-24T05:00:11.334Z",
+                "day": "Thursday"
+            },
+            {
+                "id": "HPC4635",
+                "subjectId": "63e9e303d7eaee096fed4ff5",
+                "subjectName": "High Performance Computing",
+                "subjectAbbreviation": "HPC",
+                "startTime": "2023-02-24T05:00:01.462Z",
+                "endTime": "2023-02-24T05:50:01.462Z",
+                "day": "Thursday"
+            },
+            {
+                "id": "SDN69745",
+                "subjectId": "63e9e347d7eaee096fed4fff",
+                "subjectName": "Software Defined Networks",
+                "subjectAbbreviation": "SDN",
+                "startTime": "2023-02-24T05:50:10.438Z",
+                "endTime": "2023-02-24T06:40:10.438Z",
+                "day": "Thursday"
+            }
+        ],
+        "practicals": [
+            {
+                "id": "LP-VI10061",
+                "subjectId": "63e9e383d7eaee096fed500e",
+                "subjectName": "Laboratory Practice - VI",
+                "subjectAbbreviation": "LP-VI",
+                "startTime": "2023-02-24T07:20:57.490Z",
+                "endTime": "2023-02-24T09:00:57.490Z",
+                "day": "Thursday",
+                "batch": {
+                    "id": "63e9e295d7eaee096fed4fdf",
+                    "title": "B1"
+                }
+            },
+            {
+                "id": "LP-VI70619",
+                "subjectId": "63e9e383d7eaee096fed500e",
+                "subjectName": "Laboratory Practice - VI",
+                "subjectAbbreviation": "LP-VI",
+                "startTime": "2023-02-24T07:20:41.793Z",
+                "endTime": "2023-02-24T09:00:41.793Z",
+                "day": "Thursday",
+                "batch": {
+                    "id": "63e9e29bd7eaee096fed4fe5",
+                    "title": "B3"
+                }
+            },
+            {
+                "id": "LP-V18442",
+                "subjectId": "63e9e37cd7eaee096fed5009",
+                "subjectName": "Laboratory Practice - V",
+                "subjectAbbreviation": "LP-V",
+                "startTime": "2023-02-24T07:20:51.737Z",
+                "endTime": "2023-02-24T09:00:51.737Z",
+                "day": "Thursday",
+                "batch": {
+                    "id": "63e9e29fd7eaee096fed4fe8",
+                    "title": "B4"
+                }
+            },
+            {
+                "id": "PRJ-II34438",
+                "subjectId": "63e9e39ad7eaee096fed5013",
+                "subjectName": "Project Work Stage - II",
+                "subjectAbbreviation": "PRJ-II",
+                "startTime": "2023-02-24T09:00:21.553Z",
+                "endTime": "2023-02-24T10:40:21.553Z",
+                "day": "Thursday",
+                "batch": {
+                    "id": "63e9e29fd7eaee096fed4fe8",
+                    "title": "B4"
+                }
+            }
+        ],
+        "lunchBreak": {
+            "id": "lunchBreak",
+            "startTime": "2023-02-24T06:40:00.449Z",
+            "endTime": "2023-02-24T07:20:00.449Z",
+            "title": "Break"
+        },
+        "shortBreak": null
+    },
+    "friday": {
+        "lectures": [
+            {
+                "id": "HPC96574",
+                "subjectId": "63e9e303d7eaee096fed4ff5",
+                "subjectName": "High Performance Computing",
+                "subjectAbbreviation": "HPC",
+                "startTime": "2023-02-24T04:10:18.222Z",
+                "endTime": "2023-02-24T05:00:18.222Z",
+                "day": "Friday"
+            },
+            {
+                "id": "SDN14472",
+                "subjectId": "63e9e347d7eaee096fed4fff",
+                "subjectName": "Software Defined Networks",
+                "subjectAbbreviation": "SDN",
+                "startTime": "2023-02-24T05:00:08.461Z",
+                "endTime": "2023-02-24T05:50:08.461Z",
+                "day": "Friday"
+            },
+            {
+                "id": "BI51420",
+                "subjectId": "63e9e367d7eaee096fed5004",
+                "subjectName": "Business Intelligence",
+                "subjectAbbreviation": "BI",
+                "startTime": "2023-02-24T05:50:19.014Z",
+                "endTime": "2023-02-24T06:40:19.014Z",
+                "day": "Friday"
+            },
+            {
+                "id": "DL92758",
+                "subjectId": "63e9e30fd7eaee096fed4ffa",
+                "subjectName": "Deep Learning",
+                "subjectAbbreviation": "DL",
+                "startTime": "2023-02-24T07:20:11.057Z",
+                "endTime": "2023-02-24T08:10:11.057Z",
+                "day": "Friday"
+            }
+        ],
+        "practicals": [
+            {
+                "id": "PRJ-II85904",
+                "subjectId": "63e9e39ad7eaee096fed5013",
+                "subjectName": "Project Work Stage - II",
+                "subjectAbbreviation": "PRJ-II",
+                "startTime": "2023-02-24T08:10:52.437Z",
+                "endTime": "2023-02-24T10:40:52.437Z",
+                "day": "Friday",
+                "batch": {
+                    "id": "63e9e295d7eaee096fed4fdf",
+                    "title": "B1"
+                }
+            },
+            {
+                "id": "PRJ-II42638",
+                "subjectId": "63e9e39ad7eaee096fed5013",
+                "subjectName": "Project Work Stage - II",
+                "subjectAbbreviation": "PRJ-II",
+                "startTime": "2023-02-24T08:10:54.745Z",
+                "endTime": "2023-02-24T10:40:54.745Z",
+                "day": "Friday",
+                "batch": {
+                    "id": "63e9e298d7eaee096fed4fe2",
+                    "title": "B2"
+                }
+            },
+            {
+                "id": "PRJ-II84931",
+                "subjectId": "63e9e39ad7eaee096fed5013",
+                "subjectName": "Project Work Stage - II",
+                "subjectAbbreviation": "PRJ-II",
+                "startTime": "2023-02-24T08:10:56.985Z",
+                "endTime": "2023-02-24T10:40:56.985Z",
+                "day": "Friday",
+                "batch": {
+                    "id": "63e9e29bd7eaee096fed4fe5",
+                    "title": "B3"
+                }
+            },
+            {
+                "id": "PRJ-II78051",
+                "subjectId": "63e9e39ad7eaee096fed5013",
+                "subjectName": "Project Work Stage - II",
+                "subjectAbbreviation": "PRJ-II",
+                "startTime": "2023-02-24T08:10:01.553Z",
+                "endTime": "2023-02-24T10:40:01.553Z",
+                "day": "Friday",
+                "batch": {
+                    "id": "63e9e29fd7eaee096fed4fe8",
+                    "title": "B4"
+                }
+            }
+        ],
+        "lunchBreak": {
+            "id": "lunchBreak",
+            "startTime": "2023-02-24T06:40:05.897Z",
+            "endTime": "2023-02-24T07:20:05.897Z",
+            "title": "Break"
+        },
+        "shortBreak": null
+    },
+    "saturday": {
+        "lectures": [],
+        "practicals": [],
+        "lunchBreak": null,
+        "shortBreak": null
+    }
+}
+
+
+
+
+
+
+
+
+
+{
+    "title": "COMP-BE-A",
+    "class": "63e71d2c2a9277678ec2f7fc",
+    "monday": {
+        "lectures": [
+            {
+                "subject": "63e9e367d7eaee096fed5004",
+                "startTime": "2023-02-24T04:10:34.771Z",
+                "endTime": "2023-02-24T05:00:34.771Z"
+            },
+            {
+                "subject": "63e9e30fd7eaee096fed4ffa",
+                "startTime": "2023-02-24T05:00:39.474Z",
+                "endTime": "2023-02-24T05:50:39.474Z"
+            },
+            {
+                "subject": "63e9e347d7eaee096fed4fff",
+                "startTime": "2023-02-24T05:50:38.214Z",
+                "endTime": "2023-02-24T06:40:38.214Z"
+            }
+        ],
+        "practicals": [
+            {
+                "subject": "63e9e37cd7eaee096fed5009",
+                "startTime": "2023-02-24T07:20:14.057Z",
+                "endTime": "2023-02-24T09:00:14.057Z",
+                "batch": "63e9e295d7eaee096fed4fdf"
+            },
+            {
+                "subject": "63e9e383d7eaee096fed500e",
+                "startTime": "2023-02-24T07:20:20.773Z",
+                "endTime": "2023-02-24T09:00:20.773Z",
+                "batch": "63e9e298d7eaee096fed4fe2"
+            },
+            {
+                "subject": "63e9e383d7eaee096fed500e",
+                "startTime": "2023-02-24T07:20:32.049Z",
+                "endTime": "2023-02-24T09:00:32.049Z",
+                "batch": "63e9e29fd7eaee096fed4fe8"
+            },
+            {
+                "subject": "63e9e39ad7eaee096fed5013",
+                "startTime": "2023-02-24T09:00:49.921Z",
+                "endTime": "2023-02-24T10:40:49.921Z",
+                "batch": "63e9e295d7eaee096fed4fdf"
+            }
+        ],
+        "lunchBreak": {
+            "startTime": "2023-02-24T06:40:54.174Z",
+            "endTime": "2023-02-24T07:20:54.174Z"
+        },
+        "shortBreak": null
+    },
+    "tuesday": {
+        "lectures": [
+            {
+                "subject": "63e9e347d7eaee096fed4fff",
+                "startTime": "2023-02-24T04:10:59.878Z",
+                "endTime": "2023-02-24T05:00:59.878Z"
+            },
+            {
+                "subject": "63e9e367d7eaee096fed5004",
+                "startTime": "2023-02-24T05:00:49.038Z",
+                "endTime": "2023-02-24T05:50:49.038Z"
+            },
+            {
+                "subject": "63e9e303d7eaee096fed4ff5",
+                "startTime": "2023-02-24T05:50:48.654Z",
+                "endTime": "2023-02-24T06:40:48.654Z"
+            }
+        ],
+        "practicals": [
+            {
+                "subject": "63e9e383d7eaee096fed500e",
+                "startTime": "2023-02-24T07:20:41.209Z",
+                "endTime": "2023-02-24T09:00:41.209Z",
+                "batch": "63e9e295d7eaee096fed4fdf"
+            },
+            {
+                "subject": "63e9e37cd7eaee096fed5009",
+                "startTime": "2023-02-24T07:20:47.273Z",
+                "endTime": "2023-02-24T09:00:47.273Z",
+                "batch": "63e9e298d7eaee096fed4fe2"
+            },
+            {
+                "subject": "63e9e383d7eaee096fed500e",
+                "startTime": "2023-02-24T07:20:58.237Z",
+                "endTime": "2023-02-24T09:00:58.237Z",
+                "batch": "63e9e29bd7eaee096fed4fe5"
+            },
+            {
+                "subject": "63e9e39ad7eaee096fed5013",
+                "startTime": "2023-02-24T09:00:55.865Z",
+                "endTime": "2023-02-24T10:40:55.865Z",
+                "batch": "63e9e298d7eaee096fed4fe2"
+            }
+        ],
+        "lunchBreak": {
+            "startTime": "2023-02-24T06:40:56.566Z",
+            "endTime": "2023-02-24T07:20:56.566Z"
+        },
+        "shortBreak": null
+    },
+    "wednesday": {
+        "lectures": [
+            {
+                "subject": "63e9e303d7eaee096fed4ff5",
+                "startTime": "2023-02-24T04:10:05.934Z",
+                "endTime": "2023-02-24T05:00:05.934Z"
+            },
+            {
+                "subject": "63e9e367d7eaee096fed5004",
+                "startTime": "2023-02-24T05:00:55.182Z",
+                "endTime": "2023-02-24T05:50:55.182Z"
+            },
+            {
+                "subject": "63e9e30fd7eaee096fed4ffa",
+                "startTime": "2023-02-24T05:50:02.846Z",
+                "endTime": "2023-02-24T06:40:02.846Z"
+            }
+        ],
+        "practicals": [
+            {
+                "subject": "63e9e383d7eaee096fed500e",
+                "startTime": "2023-02-24T07:20:23.434Z",
+                "endTime": "2023-02-24T09:00:23.434Z",
+                "batch": "63e9e298d7eaee096fed4fe2"
+            },
+            {
+                "subject": "63e9e37cd7eaee096fed5009",
+                "startTime": "2023-02-24T07:20:44.670Z",
+                "endTime": "2023-02-24T09:00:44.670Z",
+                "batch": "63e9e29bd7eaee096fed4fe5"
+            },
+            {
+                "subject": "63e9e383d7eaee096fed500e",
+                "startTime": "2023-02-24T07:20:51.234Z",
+                "endTime": "2023-02-24T09:00:51.234Z",
+                "batch": "63e9e29fd7eaee096fed4fe8"
+            },
+            {
+                "subject": "63e9e39ad7eaee096fed5013",
+                "startTime": "2023-02-24T09:00:08.361Z",
+                "endTime": "2023-02-24T10:40:08.361Z",
+                "batch": "63e9e29bd7eaee096fed4fe5"
+            }
+        ],
+        "lunchBreak": {
+            "startTime": "2023-02-24T06:40:02.846Z",
+            "endTime": "2023-02-24T07:20:02.846Z"
+        },
+        "shortBreak": null
+    },
+    "thursday": {
+        "lectures": [
+            {
+                "subject": "63e9e30fd7eaee096fed4ffa",
+                "startTime": "2023-02-24T04:10:11.334Z",
+                "endTime": "2023-02-24T05:00:11.334Z"
+            },
+            {
+                "subject": "63e9e303d7eaee096fed4ff5",
+                "startTime": "2023-02-24T05:00:01.462Z",
+                "endTime": "2023-02-24T05:50:01.462Z"
+            },
+            {
+                "subject": "63e9e347d7eaee096fed4fff",
+                "startTime": "2023-02-24T05:50:10.438Z",
+                "endTime": "2023-02-24T06:40:10.438Z"
+            }
+        ],
+        "practicals": [
+            {
+                "subject": "63e9e383d7eaee096fed500e",
+                "startTime": "2023-02-24T07:20:57.490Z",
+                "endTime": "2023-02-24T09:00:57.490Z",
+                "batch": "63e9e295d7eaee096fed4fdf"
+            },
+            {
+                "subject": "63e9e383d7eaee096fed500e",
+                "startTime": "2023-02-24T07:20:41.793Z",
+                "endTime": "2023-02-24T09:00:41.793Z",
+                "batch": "63e9e29bd7eaee096fed4fe5"
+            },
+            {
+                "subject": "63e9e37cd7eaee096fed5009",
+                "startTime": "2023-02-24T07:20:51.737Z",
+                "endTime": "2023-02-24T09:00:51.737Z",
+                "batch": "63e9e29fd7eaee096fed4fe8"
+            },
+            {
+                "subject": "63e9e39ad7eaee096fed5013",
+                "startTime": "2023-02-24T09:00:21.553Z",
+                "endTime": "2023-02-24T10:40:21.553Z",
+                "batch": "63e9e29fd7eaee096fed4fe8"
+            }
+        ],
+        "lunchBreak": {
+            "startTime": "2023-02-24T06:40:00.449Z",
+            "endTime": "2023-02-24T07:20:00.449Z"
+        },
+        "shortBreak": null
+    },
+    "friday": {
+        "lectures": [
+            {
+                "subject": "63e9e303d7eaee096fed4ff5",
+                "startTime": "2023-02-24T04:10:18.222Z",
+                "endTime": "2023-02-24T05:00:18.222Z"
+            },
+            {
+                "subject": "63e9e347d7eaee096fed4fff",
+                "startTime": "2023-02-24T05:00:08.461Z",
+                "endTime": "2023-02-24T05:50:08.461Z"
+            },
+            {
+                "subject": "63e9e367d7eaee096fed5004",
+                "startTime": "2023-02-24T05:50:19.014Z",
+                "endTime": "2023-02-24T06:40:19.014Z"
+            },
+            {
+                "subject": "63e9e30fd7eaee096fed4ffa",
+                "startTime": "2023-02-24T07:20:11.057Z",
+                "endTime": "2023-02-24T08:10:11.057Z"
+            }
+        ],
+        "practicals": [
+            {
+                "subject": "63e9e39ad7eaee096fed5013",
+                "startTime": "2023-02-24T08:10:52.437Z",
+                "endTime": "2023-02-24T10:40:52.437Z",
+                "batch": "63e9e295d7eaee096fed4fdf"
+            },
+            {
+                "subject": "63e9e39ad7eaee096fed5013",
+                "startTime": "2023-02-24T08:10:54.745Z",
+                "endTime": "2023-02-24T10:40:54.745Z",
+                "batch": "63e9e298d7eaee096fed4fe2"
+            },
+            {
+                "subject": "63e9e39ad7eaee096fed5013",
+                "startTime": "2023-02-24T08:10:56.985Z",
+                "endTime": "2023-02-24T10:40:56.985Z",
+                "batch": "63e9e29bd7eaee096fed4fe5"
+            },
+            {
+                "subject": "63e9e39ad7eaee096fed5013",
+                "startTime": "2023-02-24T08:10:01.553Z",
+                "endTime": "2023-02-24T10:40:01.553Z",
+                "batch": "63e9e29fd7eaee096fed4fe8"
+            }
+        ],
+        "lunchBreak": {
+            "startTime": "2023-02-24T06:40:05.897Z",
+            "endTime": "2023-02-24T07:20:05.897Z"
+        },
+        "shortBreak": null
+    },
+    "saturday": {
+        "lectures": [],
+        "practicals": [],
+        "lunchBreak": null,
+        "shortBreak": null
+    }
+}

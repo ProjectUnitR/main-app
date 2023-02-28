@@ -24,7 +24,10 @@ const getScheduleByClass = async (classId, res) => {
         class: classInfo._id
       })
         .sort({ createdAt: -1 })
-        .populate("class")
+        .populate({
+          path: "class",
+          populate: "branch"
+        })
         .populate([
           {
             path: "monday tuesday wednesday thursday friday saturday",

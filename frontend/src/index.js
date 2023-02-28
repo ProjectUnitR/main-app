@@ -11,13 +11,13 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   // <React.StrictMode>
   <AuthContextProvider>
-    <ScheduleContextProvider>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/*" element={<App />} />
-        </Routes>
-      </BrowserRouter>
-    </ScheduleContextProvider>
+    {/* <ScheduleContextProvider> */}
+    <BrowserRouter>
+      <Routes>
+        <Route path="/*" element={<App />} />
+      </Routes>
+    </BrowserRouter>
+    {/* </ScheduleContextProvider> */}
   </AuthContextProvider>
   // </React.StrictMode>
 );

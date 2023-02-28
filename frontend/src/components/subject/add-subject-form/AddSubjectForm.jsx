@@ -1,5 +1,6 @@
 /* eslint-disable eqeqeq */
 import React, { useRef } from "react";
+import { Toastify } from "../../../utils/Toastify";
 
 const AddSubjectForm = ({ branchList, onAddSubjectHandler }) => {
   const branchRef = useRef();
@@ -18,6 +19,8 @@ const AddSubjectForm = ({ branchList, onAddSubjectHandler }) => {
         year: yearRef.current.value
       };
       onAddSubjectHandler(subject);
+    } else {
+      Toastify("Some Input fields are empty");
     }
   };
 

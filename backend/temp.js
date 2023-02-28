@@ -21,20 +21,21 @@
 
 // console.log(obj.title != null);
 // console.log(obj.name != null);
-let startDate = new Date(2023, 01, 01, 9, 30);
+let startDate = new Date();
+console.log(startDate.getDate());
 let endDate = new Date(2023, 01, 01, 9, 30);
 
 // console.log(startDate.toLocaleTimeString().slice(0, 5) == endDate.toLocaleTimeString().slice(0, 5));
 // console.log(endDate.toLocaleTimeString().slice(0, 5));
 // console.log(endDate.getHours());
 
-let arrayyy = new Set();
-arrayyy.add("10:10");
-arrayyy.add("11:10");
-arrayyy.add("10:10");
-arrayyy.add(1);
+// let arrayyy = new Set();
+// arrayyy.add("10:10");
+// arrayyy.add("11:10");
+// arrayyy.add("10:10");
+// arrayyy.add(1);
 
-arrayyy.forEach((item) => console.log(item));
+// arrayyy.forEach((item) => console.log(item));
 // console.log(arrayyy);
 // console.log(startDate.getF);
 // console.log(startDate.toLocaleTimeString());

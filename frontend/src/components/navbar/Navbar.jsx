@@ -1,3 +1,4 @@
+/* eslint-disable eqeqeq */
 import React from "react";
 import AuthContext from "../../context/AuthContext";
 import useAuth from "../../hooks/useAuth";
@@ -32,12 +33,12 @@ function Navbar() {
               Home
             </a>
           </li> */}
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <a className="nav-link" href="/timetable">
               Timetable
             </a>
-          </li>
-          {authCtx.role != "super-admin" ? (
+          </li> */}
+          {authCtx.role == "super-admin" ? (
             <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Actions

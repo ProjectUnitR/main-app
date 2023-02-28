@@ -1,59 +1,28 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useContext } from "react";
 import Paper from "@mui/material/Paper";
 import { ViewState } from "@devexpress/dx-react-scheduler";
-import { Scheduler, DayView, WeekView, Appointments, AppointmentForm, CurrentTimeIndicator, AppointmentTooltip, Toolbar, ViewSwitcher } from "@devexpress/dx-react-scheduler-material-ui";
-import { useEffect, useRef, useState } from "react";
-import { getSchedule } from "../../services/ScheduleService";
+import { Scheduler, WeekView, Appointments, CurrentTimeIndicator } from "@devexpress/dx-react-scheduler-material-ui";
+// import { Scheduler, DayView, WeekView, Appointments, AppointmentForm, CurrentTimeIndicator, AppointmentTooltip, Toolbar, ViewSwitcher } from "@devexpress/dx-react-scheduler-material-ui";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { useEffect, useState } from "react";
 import { getTime } from "../../utils/Time";
 import { FullScreen, useFullScreenHandle } from "react-full-screen";
 import "./Timetable.css";
 import { APPOINTMENT_COLORS } from "../../utils/Colors";
-import AuthContext from "../../context/AuthContext";
 import ScheduleContext from "../../context/ScheduleContext";
 
 const Timetable = () => {
-  const authCtx = useContext(AuthContext);
   const scheduleContext = useContext(ScheduleContext);
 
   const handle = useFullScreenHandle();
   const [isFullscreen, setIsFullscreen] = useState(false);
   const msg = new SpeechSynthesisUtterance();
   msg.text = "Next lecture is Data structures and Algorithms";
-  const initialState = 1;
-  // const [appointments, setAppointments] = useState(scheduleContext.schedule.lectures);
-  const [current, setCurrent] = useState(initialState);
-  const intervalRef = useRef();
-  const currentRef = useRef(initialState);
 
   useEffect(() => {
-    const today = new Date(2023, 1, 3, 12, 0);
-    currentRef.current = current;
-  });
-
-  useEffect(() => {
-    // getSchedule(authCtx.class).then((result) => {
-    //   setAppointments(result.lectures);
-    // });
     scheduleContext.setSchedule();
-    console.log(scheduleContext);
-    // const timer = setInterval(() => {
-    //   const date = new Date();
-    //   if (
-    //     appointments[currentRef.current - 1].endDate.getHours() < date.getHours() ||
-    //     (appointments[currentRef.current - 1].endDate.getHours() === date.getHours() && appointments[currentRef.current - 1].endDate.getMinutes() === date.getMinutes())
-    //   ) {
-    //     setCurrent(currentRef.current + 1);
-    //   }
-    //   if (currentRef.current >= appointments.length) {
-    //     clearInterval(intervalRef.current);
-    //   } else {
-    //     msg.text = `Next Lecture is ${appointments[currentRef.current].title}`;
-    //     window.speechSynthesis.speak(msg);
-    //   }
-    // }, 5000);
-    // intervalRef.current = timer;
-    // return () => clearInterval(intervalRef.current);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const getColor = (e) => {
@@ -95,7 +64,14 @@ const Timetable = () => {
       >
         <div className="VerticalAppointment-content css-gyiown">
           <div className="VerticalAppointment-container">
-            <div className="VerticalAppointment-title" style={{ fontSize: "14px" }}>
+            <div
+              className="VerticalAppointment-title"
+              style={{
+                fontSize: "14px"
+                // textDecoration: getColor(data) == APPOINTMENT_COLORS.completed ? "line-through" : "none",
+                // textDecorationColor: "black"
+              }}
+            >
               <strong>{data.title}</strong>
             </div>
 
@@ -209,7 +185,13 @@ const Timetable = () => {
           </div>
 
           <div className="col-md-4 d-flex justify-content-center text-light badge badge-dark badge-pill align-items-center" style={{ fontSize: "18px", fontFamily: "Roboto Mono" }}>
-            COMPUTER ENGINEERING BE-A
+            {scheduleContext.schedule != null ? (
+              <>
+                {scheduleContext.schedule.class.branch.title.toUpperCase()} {scheduleContext.schedule.class.title}
+              </>
+            ) : (
+              <></>
+            )}
           </div>
           {/* <div className="col-md-4 d-flex justify-content-center">BE-A</div> */}
           <div className="col-md-2 d-flex justify-content-end">
@@ -236,6 +218,7 @@ const Timetable = () => {
           </Scheduler>
         </Paper>
       </div>
+      <ToastContainer theme="colored" position="top-left" autoClose={4000} hideProgressBar={false} newestOnTop={false} closeOnClick rtl={false} pauseOnFocusLoss draggable pauseOnHover />
     </FullScreen>
   );
 };

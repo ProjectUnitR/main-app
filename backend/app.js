@@ -8,7 +8,7 @@ const { DB, PORT } = require("./config/index");
 const app = express();
 
 // middleware
-app.use(express.static("public"));
+app.use("/images", express.static("./public/images"));
 app.use(express.json());
 app.use(passport.initialize());
 app.use(

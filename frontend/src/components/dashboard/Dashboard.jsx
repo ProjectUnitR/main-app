@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Dashboard.css";
 const logo = require("../navbar/pccoer-logo.webp");
 
@@ -22,11 +23,20 @@ function Dashboard() {
       }}
     >
       <div
+        className="d-flex justify-content-center align-items-center"
         style={{
           height: `${window.innerHeight - 70}px`,
           backgroundColor: "rgb(4, 118, 208,0.90)"
         }}
-      ></div>
+      >
+        <Link to="/timetable" style={{ cursor: "pointer", textDecoration: "none", textDecorationLine: "none", borderWidth: "15px" }}>
+          <div className="border px-5 py-2 rounded-pill text-center text-dark border-dark badge-light">
+            {/* <a href="/timetable" style={{ textDecoration: "none" }}> */}
+            Go To Schedule <i className="bi bi-arrow-right"></i>
+            {/* </a> */}
+          </div>
+        </Link>
+      </div>
     </div>
   );
 }

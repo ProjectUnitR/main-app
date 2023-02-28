@@ -5,6 +5,7 @@ import AddSubjectForm from "./add-subject-form/AddSubjectForm";
 import SubjectList from "./subject-list/SubjectList";
 import { getAllSubjects, addSubject, deleteSubject } from "../../services/SubjectService";
 import { getBranches } from "../../services/BranchService";
+import { Toastify } from "../../utils/Toastify";
 
 function Subject() {
   const [subjectList, setSubjectList] = useState([]);
@@ -16,6 +17,9 @@ function Subject() {
     // });
     reloadSubjects();
     getBranches().then((branches) => {
+      if (branches.length <= 0) {
+        Toastify("Couldn't load branches");
+      }
       setBranchList(branches);
     });
   }, []);
@@ -25,7 +29,7 @@ function Subject() {
       if (result) {
         reloadSubjects();
       } else {
-        alert("Problem occurred while adding new subject");
+        Toastify("Couldn't add a new subject");
       }
     });
   };
@@ -35,13 +39,16 @@ function Subject() {
       if (result) {
         reloadSubjects();
       } else {
-        alert("Problem occurred while adding new subject");
+        Toastify("Couldn't delete the subject");
       }
     });
   };
 
   const reloadSubjects = () => {
     getAllSubjects().then((subjects) => {
+      if (subjects.length <= 0) {
+        Toastify("Couldn't load subjects");
+      }
       setSubjectList(subjects);
     });
   };

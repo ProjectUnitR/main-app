@@ -5,3 +5,7 @@
 .hide-scrollbar {
   overflow: hidden;
 }
+
+.completed {
+  text-decoration: line-through;
+}
